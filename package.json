@@ -7,9 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "release-major": "npm version major -m \"chore: release version %s\"",
-    "release-minor": "npm version minor -m \"chore: release version %s\"",
-    "release-patch": "npm version patch -m \"chore: release version %s\"",
+    "release-major": "npm version major -m \"chore(release): version %s\"",
+    "release-minor": "npm version minor -m \"chore(release): version %s\"",
+    "release-patch": "npm version patch -m \"chore(release): version %s\"",
     "version": "git add .",
     "postversion": "git push && git push --follow-tags"
   },
