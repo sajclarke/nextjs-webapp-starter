@@ -38,6 +38,7 @@ Next.js WebApp Starter comes with the following features:
 
 - [Configured](https://nextjs.org/docs/basic-features/typescript) as a [TypeScript](https://www.typescriptlang.org) project.
 - [Tailwind CSS](https://tailwindcss.com) added as a [PostCSS plugin](./postcss.config.js) in the Next.js build chain.
+- `sass` library installed to enable Next.js' built-in Sass support.
 - More to come...
 
 ## Project Goals
