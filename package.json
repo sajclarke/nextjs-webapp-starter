@@ -1,0 +1,38 @@
+{
+  "name": "nextjs-webapp-starter",
+  "version": "0.0.0",
+  "description": "Up-to-date, reasonably opinionated starter template for Next.js web apps",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "release-major": "npm version major --force -m \"version %s\"",
+    "release-minor": "npm version minor --force -m \"version %s\"",
+    "release-patch": "npm version patch --force -m \"version %s\"",
+    "test": "echo \"No test(s) configured\" && exit 1",
+    "preversion": "npm test",
+    "postversion": "git push && git push --follow-tags"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owanhunte/nextjs-webapp-starter"
+  },
+  "engines": {
+    "node": ">= 10.21.0"
+  },
+  "dependencies": {
+    "next": "9.5.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "husky": "^4.2.5"
+  }
+}
