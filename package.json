@@ -12,6 +12,7 @@
     "release-patch": "npm version patch -m \"version %s\"",
     "test": "echo \"No test(s) configured\" && exit 1",
     "preversion": "npm test",
+    "version": "git add .",
     "postversion": "git push && git push --follow-tags"
   },
   "husky": {
