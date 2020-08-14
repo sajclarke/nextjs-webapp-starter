@@ -37,6 +37,7 @@ This project is an attempt to provide the [Next.js](https://nextjs.org) communit
 Next.js WebApp Starter comes with the following features:
 
 - [Configured](https://nextjs.org/docs/basic-features/typescript) as a [TypeScript](https://www.typescriptlang.org) project.
+- [Tailwind CSS](https://tailwindcss.com) added as a [PostCSS plugin](./postcss.config.js) in the Next.js build chain.
 - More to come...
 
 ## Project Goals
