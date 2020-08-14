@@ -6,9 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "release-major": "npm version major --force -m \"version %s\"",
-    "release-minor": "npm version minor --force -m \"version %s\"",
-    "release-patch": "npm version patch --force -m \"version %s\"",
+    "release-major": "npm version major -m \"version %s\"",
+    "release-minor": "npm version minor -m \"version %s\"",
+    "release-patch": "npm version patch -m \"version %s\"",
     "test": "echo \"No test(s) configured\" && exit 1",
     "preversion": "npm test",
     "postversion": "git push && git push --follow-tags"
