@@ -2,6 +2,7 @@
   "name": "nextjs-webapp-starter",
   "version": "0.0.0",
   "description": "Up-to-date, reasonably opinionated starter template for Next.js web apps",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
