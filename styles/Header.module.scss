@@ -1,0 +1,31 @@
+.header {
+  @apply shadow text-gray-700;
+  background-color: #f5f6f7;
+}
+
+.navbar {
+  @apply flex;
+
+  a {
+    @apply flex items-center justify-center text-gray-700 px-5 text-base leading-none transition;
+    min-height: 64px;
+
+    &:hover,
+    &:focus {
+      @apply text-gray-800 outline-none;
+    }
+  }
+}
+
+.githubStarBtn {
+  @apply absolute right-0;
+  top: 19px;
+}
+
+.ctaBtn {
+  @apply flex flex-row items-center py-4 px-6 text-white mr-6 rounded shadow-md;
+
+  &:last-child {
+    @apply mr-0;
+  }
+}

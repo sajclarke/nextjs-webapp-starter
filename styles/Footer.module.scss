@@ -1,0 +1,21 @@
+.footerWrap {
+  @apply border-t border-gray-300 pt-4 text-gray-700 text-sm;
+}
+
+.footer {
+  @apply flex flex-row items-start justify-between;
+
+  a {
+    @apply text-gray-600;
+
+    &:hover,
+    &:focus {
+      @apply text-gray-800;
+    }
+  }
+}
+
+.vercelLogo {
+  display: inline-block;
+  height: 1em;
+}

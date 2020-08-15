@@ -1,7 +1,7 @@
-// TS code taken from https://nextjs.org/docs/basic-features/typescript#custom-app
+// Code mostly taken from https://nextjs.org/docs/basic-features/typescript#custom-app
 // import App from "next/app";
 import type { AppProps /*, AppContext */ } from "next/app";
-import "../styles/globals.css";
+import "styles/index.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
